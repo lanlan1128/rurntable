@@ -1,0 +1,120 @@
+/*reset*/
+* {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+
+
+body {
+	font-family: 'Microsoft Yahei';
+}
+.cj-wrap {
+/*	width: 1900px;*/
+	height: 668px;
+	background: url(../image/warp_bg.jpg) center bottom no-repeat;
+}
+.cj-body {
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	background: url(../image/cj_body.jpg) center no-repeat;
+}
+.cj-left {
+	float: left;
+	width: 680px;
+	height: 100%;
+	position: relative;
+}
+.rotate-pointer, #cj-button, .rotate-circle, .circle-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.rotate-pointer, #cj-button, .rotate-circle {
+	background-size: 100%;
+}
+.rotate-circle {
+	width: 260px;
+	height: 260px;
+	margin-top: -130px;
+	margin-left: -130px;
+	background: url(../image/rotate-pointer-02.png) center no-repeat;
+	background-size: 100%;
+	z-index: 2;
+}
+.circle-text {
+	text-align: center;
+	color: #fff;
+	-webkit-transform: translate(-50%, -120%);
+		   -moz-transform: translate(-50%, -120%);
+			-ms-transform: translate(-50%, -120%);
+	 			transform: translate(-50%, -120%);
+	font-size: 14px;
+	line-height: 1.6;
+	z-index: 4;
+}
+.peopleNum {
+	color: #FADC4A;
+}
+.rotate-pointer {
+	width: 260px;
+	height: 260px;
+	margin-top: -130px;
+	margin-left: -130px;
+	background: url(../image/rotate-pointer-01.png) center no-repeat;
+	z-index: 1;
+}
+#cj-button {
+	width: 136px;
+	height: 49px;
+	margin-left: -68px;
+	background: url(../image/cj_btn.png) center no-repeat;
+	z-index: 3;
+	cursor: pointer;
+}
+.cj-right {
+	box-sizing: border-box;
+	float: right;
+	width: 320px;
+	padding-top: 142px;
+	text-align: center;
+	color: #777;
+}
+.rest-time {
+	font-size: 16px;
+}
+.num, .phone, .what, .title {
+	color: #F10180;
+}
+.my-award-btn {
+	background-color: #F10180;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	width: 191px;
+	line-height: 50px;
+	margin: 14px 0 28px;
+	text-decoration: none;
+}
+.title {
+	font-size: 26px;
+	font-weight: normal;
+}
+.award-list-box {
+	font-size: 12px;
+	margin-top: 18px;
+	height: 240px;
+	line-height: 1;
+	overflow: hidden;
+}
+.award-list-box ul li {
+	margin-bottom: 20px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 100%;
+}
